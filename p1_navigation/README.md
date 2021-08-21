@@ -40,4 +40,4 @@ Once completed, follow the instructions below to download your Unity enviroment 
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
-You can now, within your python environment, open the `Navigation.ipynb` jupyter notebook and follow the instruction the train and test the DQN model.
+You can now, within your python environment, open the `Navigation.ipynb` jupyter notebook and follow the instruction in the jupyter notebool, to train and test the DQN model.
