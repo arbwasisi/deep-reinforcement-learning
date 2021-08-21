@@ -1,4 +1,4 @@
 # Project Implemetation
 
-### Model Algorithm
+## Model Algorithm
 
