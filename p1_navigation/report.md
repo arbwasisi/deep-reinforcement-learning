@@ -26,7 +26,7 @@
 
 ### Results and Hyperparameters
 
-These were the hyperparameters used for the modeL
+These were the hyperparameters used for the model:
 
 ```
 BUFFER_SIZE = int(1e5)  # replay buffer size
