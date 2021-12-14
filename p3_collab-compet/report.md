@@ -45,6 +45,7 @@ The environment, as shown in the image, is solved on the 1597th episode with a s
 
 ### Ideas for Future Work
 
-For future solutions, I would utilize the more recent and advanced Distributed Distributional Deterministic Policy Gradients (D4PG) to solve the environment
-and test it against the regular DDPG algorithm that I used for this project. I would also like to tackle the the environment with multiple agents as opposed to 
-just one.
+For future solutions, I would incoporate the concept of policy ensembles. This is a concept discussed in [This MADDPG](https://arxiv.org/pdf/1706.02275.pdf) paper.
+This method approximates agents policies rather than have agents know each others policies without inferring. This is taken a step further to prevent overfitting
+by having a collection of K sub-policies for each agent to execute. In addition, adding prioritized replay to the algorithm would help decrease bias and correlations when training the agents with the replay buffer. Finally, a different approach to the project would be using the D4PG algorithm and extend it for MARL
+environment, and compare its performance to the MADDPG algorithm.
