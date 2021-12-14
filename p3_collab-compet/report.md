@@ -39,7 +39,7 @@ WEIGHT_DECAY = 0        # L2 weight decay
 
 This image represents the results of the model in solving the environment.
 
-`<img src = "images/results.png" width = "700" >`
+<img src = "images/results.png" width = "700" >
 
 The environment, as shown in the image, is solved on the 1597th episode with a score of 0.5.
 
