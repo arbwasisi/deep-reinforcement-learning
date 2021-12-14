@@ -49,3 +49,7 @@ For future solutions, I would incoporate the concept of policy ensembles. This i
 This method approximates agents policies rather than have agents know each others policies without inferring. This is taken a step further to prevent overfitting
 by having a collection of K sub-policies for each agent to execute. In addition, adding prioritized replay to the algorithm would help decrease bias and correlations when training the agents with the replay buffer. Finally, a different approach to the project would be using the D4PG algorithm and extend it for MARL
 environment, and compare its performance to the MADDPG algorithm.
+
+### Refferences
+https://medium.com/@jasdeepsidhu13/project-3-training-two-deep-rl-agents-to-play-tennis-4e11b219ae0b
+https://towardsdatascience.com/training-two-agents-to-play-tennis-8285ebfaec5f
